@@ -1,1 +1,10 @@
-{"__resolveType":"site/sections/Footer.tsx","links":[],"bottomLinks":[],"social":[],"subscribe":{}}
+{
+  "__resolveType": "site/sections/Footer.tsx",
+  "links": [],
+  "bottomLinks": [],
+  "social": [],
+  "subscribe": {
+    "title": "Subscribe",
+    "description": "Hello!"
+  }
+}
