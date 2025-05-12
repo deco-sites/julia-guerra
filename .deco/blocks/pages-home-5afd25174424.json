@@ -6,7 +6,10 @@
       "__resolveType": "Header"
     },
     {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx"
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "descriptionPlacement": "left",
+      "titlePlacement": "left",
+      "ctaPlacement": "right"
     },
     {
       "__resolveType": "site/sections/BlogPosts.tsx"
