@@ -1,0 +1,33 @@
+{
+  "name": "Contato",
+  "path": "/contato",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "descriptionPlacement": "left",
+      "titlePlacement": "left",
+      "ctaPlacement": "right",
+      "description": "<p></p>",
+      "cta": [],
+      "disableSpacing": {
+        "top": true
+      },
+      "tagline": " Em andamento",
+      "placement": "center",
+      "title": "Contato"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "SimpleFooter"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

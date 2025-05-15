@@ -12,10 +12,10 @@ export interface Props {
   placement?: "left" | "right" | "center";
   title?: string;
   titlePlacement?: "left" | "right" | "center";
+  tagline?: string;
   /** @format rich-text */
   description?: string;
   descriptionPlacement?: "left" | "right" | "center" | "justify";
-  tagline?: string;
   image?: ImageWidget;
   cta?: CTA[];
   disableSpacing?: {
