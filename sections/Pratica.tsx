@@ -81,7 +81,7 @@ export default function ImageWithParagraph({
           <div class={`flex flex-col gap-3 pt-4`}>
             {paragraphs?.map((item) => (
               <div>
-                <h3 class="text-1xl leading-snug">{item.label}</h3>
+                <h3 class="mb-4 text-xl leading-snug">{item.label}</h3>
                 <div
                   class="grid gap-4 leading-[1.6]"
                   dangerouslySetInnerHTML={{
