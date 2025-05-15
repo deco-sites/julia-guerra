@@ -35,6 +35,12 @@
           },
           {
             "weight": "500"
+          },
+          {
+            "weight": "600"
+          },
+          {
+            "weight": "700"
           }
         ],
         "family": "Open Sans"

@@ -15,7 +15,7 @@ export default function Footer({
   cta = [],
 }: Props) {
   return (
-    <footer class="footer footer-center center text-center grid gap-8 p-10 bg-base-100 text-base-content">
+    <footer class="footer footer-center center text-center grid gap-8 p-10 mb-4 text-sm">
       <div class="flex gap-2 center justify-center">
         {cta?.map((item) => (
           <a
