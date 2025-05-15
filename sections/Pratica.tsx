@@ -38,7 +38,9 @@ export default function ImageWithParagraph({
   tagline = null,
   image = null,
   placement = "left",
-  paragraphs = [],
+  paragraphs = [
+    {label: "Title", text: "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."},
+  ],
   cta = [],
 }: Props) {
   return (
@@ -62,7 +64,7 @@ export default function ImageWithParagraph({
             />
         </div> }
         <div class="w-full gap-4 z-10 md:max-w-xl md:w-1/2 md:space-y-4 space-y-2">
-          <h2 class="text-1xl leading-snug">
+          <h2 class="text-2xl leading-snug">
             {title}
           </h2>
           {tagline ? <p class="text-sm text-secondary">
@@ -79,7 +81,7 @@ export default function ImageWithParagraph({
           <div class={`flex flex-col gap-3 pt-4`}>
             {paragraphs?.map((item) => (
               <div>
-                <h3 class="text-4xl leading-snug">{item.label}</h3>
+                <h3 class="text-1xl leading-snug">{item.label}</h3>
                 <div
                   class="grid gap-4 leading-[1.6]"
                   dangerouslySetInnerHTML={{
