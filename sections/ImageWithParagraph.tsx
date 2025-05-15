@@ -86,8 +86,12 @@ export default function ImageWithParagraph({
           <p class="text-4xl leading-snug" style={`text-align:${titlePlacement}`}>
             {title}
           </p>
-          <div class="leading-normal" style={`text-align:${descriptionPlacement}`}>
-            {description}
+          <div
+            class="leading-normal" style={`text-align:${descriptionPlacement}`}
+            dangerouslySetInnerHTML={{
+              __html: description,
+            }}
+          >
           </div>
           <div class={`flex gap-3 pt-4 justify-${CTA_PLACEMENT[ctaPlacement]}`}>
             {cta?.map((item) => (
