@@ -4,7 +4,7 @@ import Image from "apps/website/components/Image.tsx";
 export interface CTA {
   id?: string;
   href: string;
-  text: string;
+  label: string;
   style?: "Outline" | "Ghost";
 }
 
@@ -51,8 +51,8 @@ export default function ImageWithParagraph({
   placement = "left",
   disableSpacing,
   cta = [
-    { id: "change-me-1", href: "/", text: "Change me", style: "Outline" },
-    { id: "change-me-2", href: "/", text: "Change me", style: "Ghost" },
+    { id: "change-me-1", href: "/", label: "Change me", style: "Outline" },
+    { id: "change-me-2", href: "/", label: "Change me", style: "Ghost" },
   ],
   ctaPlacement = "left",
 }: Props) {
@@ -105,7 +105,7 @@ export default function ImageWithParagraph({
                   ${item.style == "Ghost" && "btn-ghost"}
                 `}
               >
-                {item?.text}
+                {item?.label}
               </a>
             ))}
           </div>

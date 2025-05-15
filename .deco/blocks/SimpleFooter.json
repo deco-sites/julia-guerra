@@ -1,0 +1,17 @@
+{
+  "__resolveType": "site/sections/SimpleFooter.tsx",
+  "cta": [
+    {
+      "href": "www.linkedin.com/in/julia-guerra-fernandes-353317177",
+      "id": "Linkedin",
+      "style": "Ghost",
+      "label": "LinkedIn"
+    },
+    {
+      "id": "Lattes",
+      "href": "http://lattes.cnpq.br/2500968157504057",
+      "style": "Ghost",
+      "label": "Lattes"
+    }
+  ]
+}

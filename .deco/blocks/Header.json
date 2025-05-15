@@ -1,7 +1,20 @@
 {
   "__resolveType": "site/sections/Header.tsx",
   "navigation": {
-    "links": [],
+    "links": [
+      {
+        "label": "Home",
+        "url": "/"
+      },
+      {
+        "label": "Pesquisa",
+        "url": "/pesquisa"
+      },
+      {
+        "label": "Práticas",
+        "url": "/praticas"
+      }
+    ],
     "buttons": []
   },
   "logo": {

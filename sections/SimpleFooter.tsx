@@ -6,7 +6,7 @@ export interface Props {
 export interface CTA {
   id?: string;
   href: string;
-  text: string;
+  label: string;
   style?: "Outline" | "Ghost";
 }
 
@@ -25,7 +25,7 @@ export default function Footer({
             target={item?.href.includes("http") ? "_blank" : "_self"}
             class="hover:underline"
           >
-            {item?.text}
+            {item?.label}
           </a>
         ))}
       </div> 

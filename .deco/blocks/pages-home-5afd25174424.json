@@ -14,20 +14,20 @@
       "cta": [
         {
           "href": "http://www.google.com",
-          "text": "Curriculum Vitae",
-          "id": "CV"
+          "id": "CV",
+          "label": "Curriculum Vitae"
         },
         {
           "id": "Linkedin",
           "href": "www.linkedin.com/in/julia-guerra-fernandes-353317177",
-          "text": "LinkedIn",
-          "style": "Outline"
+          "style": "Outline",
+          "label": "LinkedIn"
         },
         {
           "style": "Outline",
           "id": "Lattes",
           "href": "http://lattes.cnpq.br/2500968157504057",
-          "text": "Lattes"
+          "label": "Lattes"
         }
       ],
       "disableSpacing": {
@@ -54,21 +54,7 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/SimpleFooter.tsx",
-        "cta": [
-          {
-            "href": "www.linkedin.com/in/julia-guerra-fernandes-353317177",
-            "text": "LinkedIn",
-            "id": "Linkedin",
-            "style": "Ghost"
-          },
-          {
-            "id": "Lattes",
-            "href": "http://lattes.cnpq.br/2500968157504057",
-            "text": "Lattes",
-            "style": "Ghost"
-          }
-        ]
+        "__resolveType": "SimpleFooter"
       }
     }
   ],
