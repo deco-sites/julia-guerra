@@ -16,7 +16,7 @@ export interface Props {
   descriptionPlacement?: "left" | "right" | "center" | "justify";
   tagline?: string;
   image?: ImageWidget;
-  placement?: "left" | "right";
+  placement?: "left" | "right" | "center";
   cta?: CTA[];
   disableSpacing?: {
     top?: boolean;
@@ -28,6 +28,7 @@ export interface Props {
 const PLACEMENT = {
   left: "flex-col md:flex-row-reverse",
   right: "flex-col md:flex-row",
+  center: "flex-row justify-center",
 };
 
 const CTA_PLACEMENT = {
@@ -77,7 +78,7 @@ export default function ImageWithParagraph({
               loading="lazy"
             />
         </div> }
-        <div class="w-full md:w-1/2 space-y-2 md:space-y-4 md:max-w-xl gap-4 z-10">
+        <div class="w-full gap-4 z-10 md:max-w-xl md:w-1/2 md:space-y-4 space-y-2">
           {tagline ? <p class="text-sm font-semibold">
             {tagline}
           </p>
@@ -101,20 +102,6 @@ export default function ImageWithParagraph({
                 `}
               >
                 {item?.text}
-                {item.style == "Ghost" && (
-                  <svg
-                    width="24"
-                    height="25"
-                    viewBox="0 0 24 25"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M9.70697 16.9767L15.414 11.2697L9.70697 5.56274L8.29297 6.97674L12.586 11.2697L8.29297 15.5627L9.70697 16.9767Z"
-                      fill="#18181B"
-                    />
-                  </svg>
-                )}
               </a>
             ))}
           </div>
