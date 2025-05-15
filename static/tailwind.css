@@ -2758,9 +2758,6 @@ input.tab:checked + .tab-content,
 .mb-6 {
   margin-bottom: 1.5rem;
 }
-.mb-8 {
-  margin-bottom: 2rem;
-}
 .ml-1 {
   margin-left: 0.25rem;
 }
@@ -3403,6 +3400,9 @@ input.tab:checked + .tab-content,
 }
 .pb-4 {
   padding-bottom: 1rem;
+}
+.pb-8 {
+  padding-bottom: 2rem;
 }
 .pb-\[15px\] {
   padding-bottom: 15px;

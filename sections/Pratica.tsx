@@ -44,7 +44,7 @@ export default function ImageWithParagraph({
   cta = [],
 }: Props) {
   return (
-    <div class="lg:container md:max-w-6xl lg:mx-auto mx-4 mb-8">
+    <div class="lg:container md:max-w-6xl lg:mx-auto mx-4 pb-8">
       <div
         class={`flex ${
           PLACEMENT[placement]
