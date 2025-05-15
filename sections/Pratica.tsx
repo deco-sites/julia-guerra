@@ -44,7 +44,7 @@ export default function ImageWithParagraph({
   cta = [],
 }: Props) {
   return (
-    <div class="lg:container md:max-w-6xl lg:mx-auto mx-4">
+    <div class="lg:container md:max-w-6xl lg:mx-auto mx-4 mb-10">
       <div
         class={`flex ${
           PLACEMENT[placement]
@@ -97,14 +97,14 @@ export default function ImageWithParagraph({
             ) : ""
           }
 
-          <div class={`flex gap-3 pt-4`}>
+          <div class={`flex gap-3`}>
             {cta?.map((item) => (
               <a
                 key={item?.id}
                 id={item?.id}
                 href={item?.href}
                 target={item?.href.includes("http") ? "_blank" : "_self"}
-                class={`font-normal btn btn-primary py-0
+                class={`font-normal btn btn-primary btn-sm
                   ${!item.style || item.style == "Outline" && "btn-outline"}
                   ${item.style == "Ghost" && "btn-ghost"}
                 `}

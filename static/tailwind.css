@@ -2746,6 +2746,9 @@ input.tab:checked + .tab-content,
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
 }
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -3358,10 +3361,6 @@ input.tab:checked + .tab-content,
 .px-\[12px\] {
   padding-left: 12px;
   padding-right: 12px;
-}
-.py-0 {
-  padding-top: 0px;
-  padding-bottom: 0px;
 }
 .py-1 {
   padding-top: 0.25rem;
