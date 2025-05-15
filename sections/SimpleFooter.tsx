@@ -1,27 +1,38 @@
 export interface Props {
   copyrightText?: string; // @format text
-  facebookLink?: string;
-  twitterLink?: string;
-  instagramLink?: string;
+  cta?: CTA[];
+}
+
+export interface CTA {
+  id?: string;
+  href: string;
+  text: string;
+  style?: "Outline" | "Ghost";
 }
 
 export default function Footer({ 
-  copyrightText = "© 2023 Company Name. All rights reserved.",
-  facebookLink = "#",
-  twitterLink = "#", 
-  instagramLink = "#",
+  copyrightText = "©2025 All rights reserved.",
+  cta = [],
 }: Props) {
   return (
-    <footer class="footer footer-center p-10 bg-base-100 text-base-content rounded">
+    <footer class="footer footer-center p-10 bg-base-100 text-base-content">
       <div class="grid grid-flow-col gap-4">
-        <a href={facebookLink} class="link link-hover">Facebook</a> 
-        <a href={twitterLink} class="link link-hover">Twitter</a> 
-        <a href={instagramLink} class="link link-hover">Instagram</a>
+        {cta?.map((item) => (
+          <a
+            key={item?.id}
+            id={item?.id}
+            href={item?.href}
+            target={item?.href.includes("http") ? "_blank" : "_self"}
+            class={`font-normal btn btn-primary
+              ${!item.style || item.style == "Ghost" && "btn-ghost"}
+              ${item.style == "Outline" && "btn-outline"}
+            `}
+          >
+            {item?.text}
+          </a>
+        ))}
       </div> 
       <div>
-        <p class="font-bold">
-          Company Name
-        </p> 
         <p>{copyrightText}</p>
       </div>
     </footer>

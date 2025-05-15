@@ -53,7 +53,24 @@
       "placement": "center"
     },
     {
-      "__resolveType": "Footer"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/SimpleFooter.tsx",
+        "cta": [
+          {
+            "href": "www.linkedin.com/in/julia-guerra-fernandes-353317177",
+            "text": "LinkedIn",
+            "id": "Linkedin",
+            "style": "Ghost"
+          },
+          {
+            "id": "Lattes",
+            "href": "http://lattes.cnpq.br/2500968157504057",
+            "text": "Lattes",
+            "style": "Ghost"
+          }
+        ]
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
