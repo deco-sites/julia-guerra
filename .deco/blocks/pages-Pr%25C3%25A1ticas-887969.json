@@ -23,6 +23,15 @@
       "section": {
         "__resolveType": "SimpleFooter"
       }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Pratica.tsx",
+        "placement": "center",
+        "title": "Programa Na Moral",
+        "description": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">Desenho e Avaliação de Programa de Prevenção à Violência nas Escolas (2021-Atual)</span></p>"
+      }
     }
   ],
   "seo": {
