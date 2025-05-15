@@ -1,13 +1,13 @@
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
-export interface Testing {
+export interface Paragraph {
   label: string;
   /** @format rich-text */
   text: string;
 }
 
-export interface Paragraph {
+export interface CTA {
   id?: string;
   href: string;
   label: string;
@@ -62,9 +62,9 @@ export default function ImageWithParagraph({
             />
         </div> }
         <div class="w-full gap-4 z-10 md:max-w-xl md:w-1/2 md:space-y-4 space-y-2">
-          <p class="text-3xl leading-snug">
+          <h2 class="text-1xl leading-snug">
             {title}
-          </p>
+          </h2>
           {tagline ? <p class="text-sm text-secondary">
             {tagline}
           </p>
@@ -75,6 +75,20 @@ export default function ImageWithParagraph({
               __html: description,
             }}
           >
+          </div>
+          <div class={`flex flex-col gap-3 pt-4`}>
+            {paragraphs?.map((item) => (
+              <div>
+                <h3 class="text-4xl leading-snug">{item.label}</h3>
+                <div
+                  class="grid gap-4 leading-[1.6]"
+                  dangerouslySetInnerHTML={{
+                    __html: item.text,
+                  }}
+                >
+                </div>
+              </div>
+            ))}
           </div>
           <div class={`flex gap-3 pt-4`}>
             {cta?.map((item) => (
