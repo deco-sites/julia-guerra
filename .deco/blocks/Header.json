@@ -1,1 +1,10 @@
-{"__resolveType":"site/sections/Header.tsx","navigation":{"links":[],"buttons":[]}}
+{
+  "__resolveType": "site/sections/Header.tsx",
+  "navigation": {
+    "links": [],
+    "buttons": []
+  },
+  "logo": {
+    "src": "https://assets.decocache.com/julia-guerra/ee255e49-39d6-4acd-944c-7cb1fd96f335/logo.svg"
+  }
+}
