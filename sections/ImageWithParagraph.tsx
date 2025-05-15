@@ -9,14 +9,14 @@ export interface CTA {
 }
 
 export interface Props {
+  placement?: "left" | "right" | "center";
   title?: string;
   titlePlacement?: "left" | "right" | "center";
-  /** @format textarea */
+  /** @format rich-text */
   description?: string;
   descriptionPlacement?: "left" | "right" | "center" | "justify";
   tagline?: string;
   image?: ImageWidget;
-  placement?: "left" | "right" | "center";
   cta?: CTA[];
   disableSpacing?: {
     top?: boolean;
@@ -26,8 +26,8 @@ export interface Props {
 }
 
 const PLACEMENT = {
-  left: "flex-col md:flex-row-reverse",
-  right: "flex-col md:flex-row",
+  left: "flex-col md:flex-row",
+  right: "flex-col md:flex-row-reverse",
   center: "flex-row justify-center",
 };
 
