@@ -62,7 +62,7 @@ export default function ImageWithParagraph({
         class={`flex ${
           PLACEMENT[placement]
         } gap-12 md:gap-20 text-left items-center z-10 ${
-          disableSpacing?.top ? "" : "pt-12 lg:pt-28"
+          disableSpacing?.top ? "" : "pt-12 lg:pt-20"
         } ${disableSpacing?.bottom ? "" : "pb-12 lg:pb-28"}`}
       >
         

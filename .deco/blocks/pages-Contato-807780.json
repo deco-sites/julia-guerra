@@ -13,7 +13,7 @@
       "description": "<p></p>",
       "cta": [],
       "disableSpacing": {
-        "top": true
+        "top": false
       },
       "tagline": " Em andamento",
       "placement": "center",
