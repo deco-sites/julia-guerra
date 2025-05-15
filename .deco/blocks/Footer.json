@@ -1,10 +1,22 @@
 {
   "__resolveType": "site/sections/Footer.tsx",
-  "links": [],
+  "links": [
+    {
+      "title": "Links",
+      "items": [
+        {
+          "label": "LinkedIn",
+          "href": "http://www.google.com"
+        }
+      ]
+    }
+  ],
   "bottomLinks": [],
   "social": [],
   "subscribe": {
     "title": "Subscribe",
     "description": "Hello!"
-  }
+  },
+  "madeWith": {},
+  "copyright": "© 2025 deco.cx. All rights reserved."
 }

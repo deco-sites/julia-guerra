@@ -53,16 +53,7 @@
       "placement": "center"
     },
     {
-      "__resolveType": "site/sections/BlogPosts.tsx"
-    },
-    {
       "__resolveType": "Footer"
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx"
-      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
