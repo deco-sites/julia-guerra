@@ -79,15 +79,15 @@ export default function ImageWithParagraph({
             />
         </div> }
         <div class="w-full gap-4 z-10 md:max-w-xl md:w-1/2 md:space-y-4 space-y-2">
+          <p class="text-4xl leading-snug" style={`text-align:${titlePlacement}`}>
+            {title}
+          </p>
           {tagline ? <p class="text-sm font-semibold">
             {tagline}
           </p>
           : ''}
-          <p class="text-4xl leading-snug" style={`text-align:${titlePlacement}`}>
-            {title}
-          </p>
           <div
-            class="leading-normal" style={`text-align:${descriptionPlacement}`}
+            class="grid gap-4 leading-normal" style={`text-align:${descriptionPlacement}`}
             dangerouslySetInnerHTML={{
               __html: description,
             }}

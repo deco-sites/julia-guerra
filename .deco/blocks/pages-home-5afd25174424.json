@@ -34,7 +34,9 @@
       "disableSpacing": {
         "top": true
       },
-      "tagline": " "
+      "tagline": " ",
+      "image": "https://assets.decocache.com/julia-guerra/00b22406-0596-4b99-8c7d-deed62f77bf5/WhatsApp-Image-2025-05-13-at-16.21.03.jpeg",
+      "placement": "right"
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
@@ -42,7 +44,7 @@
       "titlePlacement": "left",
       "ctaPlacement": "right",
       "title": "Pesquisa",
-      "description": "<p>The Effects of Urban Violence on Primary Health Care Services: Evidence from Poor Neighborhoods in Rio de Janeiro (joint with Vinicius Peçanha, Thomas Hone, Chris Millet, Joana Monteiro and Rudi Rocha))</p><p></p><p>We use monthly clinic-level panel data from 204 clinics in Rio de Janeiro between January 2009 and December 2016 to study the effects of violent events on healthcare access, utilization, and quality. Exploiting the proximity of clinics to geocoded episodes of violence related to police operations and drug gang battles, we find that exposure to violence leads to a significant reduction in healthcare utilization. Specifically, each additional police-related shooting is associated with a 12.3% reduction in primary care procedures, primarily driven by decreased access on the day of the event. These effects are more pronounced in neighborhoods with lower average income and socioeconomic status. We provide evidence that while violent events reduce healthcare utilization, they do not significantly impact quality indicators such as employee turnover or hospitalization. Thus, urban violence not only hampers access to health services but also exacerbates inequality in healthcare utilization in affected neighborhoods.</p>",
+      "description": "<p><strong>The Effects of Urban Violence on Primary Health Care Services: Evidence from Poor Neighborhoods in Rio de Janeiro</strong> (joint with Vinicius Peçanha, Thomas Hone, Chris Millet, Joana Monteiro and Rudi Rocha))</p><p>We use monthly clinic-level panel data from 204 clinics in Rio de Janeiro between January 2009 and December 2016 to study the effects of violent events on healthcare access, utilization, and quality. Exploiting the proximity of clinics to geocoded episodes of violence related to police operations and drug gang battles, we find that exposure to violence leads to a significant reduction in healthcare utilization. Specifically, each additional police-related shooting is associated with a 12.3% reduction in primary care procedures, primarily driven by decreased access on the day of the event. These effects are more pronounced in neighborhoods with lower average income and socioeconomic status. We provide evidence that while violent events reduce healthcare utilization, they do not significantly impact quality indicators such as employee turnover or hospitalization. Thus, urban violence not only hampers access to health services but also exacerbates inequality in healthcare utilization in affected neighborhoods.</p>",
       "cta": [],
       "disableSpacing": {
         "top": true

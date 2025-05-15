@@ -1,1 +1,8 @@
-{"__resolveType":"site/sections/ImageWithParagraph.tsx"}
+{
+  "__resolveType": "site/sections/ImageWithParagraph.tsx",
+  "placement": "left",
+  "titlePlacement": "left",
+  "descriptionPlacement": "left",
+  "cta": [],
+  "ctaPlacement": "left"
+}
