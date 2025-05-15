@@ -2746,9 +2746,6 @@ input.tab:checked + .tab-content,
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
 }
-.mb-12 {
-  margin-bottom: 3rem;
-}
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -2760,6 +2757,9 @@ input.tab:checked + .tab-content,
 }
 .mb-6 {
   margin-bottom: 1.5rem;
+}
+.mb-8 {
+  margin-bottom: 2rem;
 }
 .ml-1 {
   margin-left: 0.25rem;
