@@ -1,0 +1,69 @@
+{
+  "name": "Programa Na Moral",
+  "path": "/praticas/programa-na-moral",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "descriptionPlacement": "left",
+      "titlePlacement": "left",
+      "ctaPlacement": "right",
+      "description": "<p></p>",
+      "cta": [],
+      "disableSpacing": {
+        "top": true,
+        "bottom": true
+      },
+      "placement": "center",
+      "title": "Práticas"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Pratica.tsx",
+        "placement": "center",
+        "title": "Programa Na Moral",
+        "description": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">Desenho e Avaliação de Programa de Prevenção à Violência nas Escolas (2021-Atual)</span></p>",
+        "paragraphs": [
+          {
+            "style": "Outline",
+            "label": "Problema",
+            "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">A adolescência é uma fase da vida caracterizada por maior impulsividade e propensão ao risco, aspectos neurológicos associados a uma pior performance escolar, abuso de álcool e drogas e maior exposição à violência. A literatura sobre o tema indica que políticas públicas preventivas capazes de promover habilidades comportamentais dos adolescentes e de fornecer ferramentas necessárias para auxiliá-los nos desafios dessa fase da vida são mais eficazes do que a adoção de estratégias punitivas. Em especial, a Terapia Cognitiva Comportamental (TCC) é usada por psicólogos há mais de três décadas para a afetar pensamentos automáticos disfuncionais, alterar crenças e comportamentos impulsivos e ajudar no planejamento de atividades diárias individuais. Esse tipo de terapia passou mais recentemente a ser considerada uma prática bastante efetiva e promissora para ajudar a reduzir o comportamento de risco de envolvimento criminal de jovens após ter sido testada através de métodos de avaliação bastante robustos com jovens de Chicago e na Libéria. No contexto brasileiro, alguns desafios se impõem. Essas intervenções são suficientes para reduzir o envolvimento com violência e atos infracionais em um contexto socioeconômico desafiador como as periferias de grandes cidades? Como ofertar em escala esse tipo de terapia? É possível usar escolas como base de identificação de jovens e atendimento no contexto pós-pandemia? Como atrair e manter os jovens engajados no projeto? Essas são perguntas que para serem respondidas precisam da implementação de um projeto-piloto, cujo desenho seja informado pelas evidências científicas existentes, focado em jovens e adaptado ao contexto das grandes cidades brasileiras e ao cenário pós-pandemia.</span></p>"
+          },
+          {
+            "label": "Proposta",
+            "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">Desenhar e implementar um projeto-piloto que utiliza técnicas de Terapia Cognitivo Comportamental (TCC) para promover mudanças na forma de pensar, sentir e se comportar dos jovens visando desenvolver suas habilidades de comunicação, gerenciamento de emoções, assertividade, construção de autoestima e resistência à pressão dos pares. O projeto de pesquisa contempla as diferentes fases de um processo de formulação de políticas públicas baseado em evidências, começando pelo diagnóstico do problema e sistematização de evidências, para então formular, implementar e avaliar um programa em escala piloto.&nbsp; O projeto-piloto será implementado e testado com 300 alunos do 7º ao 9º ano de escolas públicas municipais na periferia de São Paulo no primeiro semestre de 2022. Isso permitirá acompanhar em detalhes os desafios operacionais assim como os resultados sobre o público-alvo, e consequentemente entender a viabilidade e adaptações necessárias para implementar em escala um programa nesses moldes. Ao fim do projeto, espera-se ter o desenho e material do projeto para ser implementado e testado através de um experimento aleatorizado controlado.</span></p>"
+          },
+          {
+            "label": "Financiamento",
+            "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">Emenda Parlamentar da Deputada Federal Tábata Amaral.</span></p>"
+          },
+          {
+            "label": "Parceria",
+            "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">Ministério dos Direitos Humanos e da Cidadania e Secretaria Municipal de Educação de São Paulo.</span></p>"
+          },
+          {
+            "label": "Relatórios e artigos sobre o projeto",
+            "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">Relatório de Implementação</span></p><p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">Folha de São Paulo: Um caminho para reduzir a violência nas escolas</span></p>"
+          },
+          {
+            "label": "Referências para desenho do programa",
+            "text": "<p>Podcast of the Security and Development Seminar Series – Inequality, Crime and Development in Latin America</p><p>Podcast Freakonomics – Preventing Crime for Pennies on the Dollar</p>"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "SimpleFooter"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

@@ -16,7 +16,7 @@ export interface CTA {
 
 export interface Props {
   placement?: "left" | "right" | "center";
-  title?: string;
+  label?: string;
   tagline?: string;
   /** @format rich-text */
   description?: string;
@@ -32,7 +32,7 @@ const PLACEMENT = {
 };
 
 export default function ImageWithParagraph({
-  title = "Title",
+  label = "Title",
   description =
     "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
   tagline = null,
@@ -65,7 +65,7 @@ export default function ImageWithParagraph({
         </div> }
         <div class="w-full gap-4 z-10 md:max-w-xl md:w-1/2 md:space-y-4 space-y-2">
           <h2 class="text-2xl leading-snug">
-            {title}
+            {label}
           </h2>
           {tagline ? <p class="text-sm text-secondary">
             {tagline}
@@ -78,20 +78,25 @@ export default function ImageWithParagraph({
             }}
           >
           </div>
-          <div class={`flex flex-col gap-6 pt-4`}>
-            {paragraphs?.map((item) => (
-              <div>
-                <h3 class="mb-2 text-xl leading-snug">{item.label}</h3>
-                <div
-                  class="grid gap-4 leading-[1.6]"
-                  dangerouslySetInnerHTML={{
-                    __html: item.text,
-                  }}
-                >
-                </div>
+          {
+            paragraphs.length > 0 ? (
+              <div class={`flex flex-col gap-6 pt-4`}>
+                {paragraphs?.map((item) => (
+                  <div>
+                    <h3 class="mb-2 text-xl leading-snug">{item.label}</h3>
+                    <div
+                      class="grid gap-4 leading-[1.6]"
+                      dangerouslySetInnerHTML={{
+                        __html: item.text,
+                      }}
+                    >
+                    </div>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
+            ) : ""
+          }
+
           <div class={`flex gap-3 pt-4`}>
             {cta?.map((item) => (
               <a
@@ -99,7 +104,7 @@ export default function ImageWithParagraph({
                 id={item?.id}
                 href={item?.href}
                 target={item?.href.includes("http") ? "_blank" : "_self"}
-                class={`font-normal btn btn-primary
+                class={`font-normal btn btn-primary py-0
                   ${!item.style || item.style == "Outline" && "btn-outline"}
                   ${item.style == "Ghost" && "btn-ghost"}
                 `}
