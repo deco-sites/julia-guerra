@@ -3523,6 +3523,9 @@ input.tab:checked + .tab-content,
 .leading-\[1\.125rem\] {
   line-height: 1.125rem;
 }
+.leading-\[1\.5\] {
+  line-height: 1.5;
+}
 .leading-\[10px\] {
   line-height: 10px;
 }
@@ -3549,9 +3552,6 @@ input.tab:checked + .tab-content,
 }
 .leading-none {
   line-height: 1;
-}
-.leading-normal {
-  line-height: 1.5;
 }
 .leading-relaxed {
   line-height: 1.625;

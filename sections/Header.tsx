@@ -48,8 +48,8 @@ export default function Header({
 
       {/* main content */}
       <div class="drawer-content container lg:px-0 px-4 flex gap-8 items-center justify-center py-4 mt-2 mb-6">
-        <a href="/">
-          <Image src={logo.src || ""} width={100} alt={logo.alt} />
+        <a href="/" class="block py-6">
+          <Image src={logo.src || ""} width={200} alt={logo.alt} />
         </a>
 
         {

@@ -31,14 +31,13 @@
       {
         "variations": [
           {
-            "weight": "300",
-            "italic": false
+            "weight": "300"
           },
           {
             "weight": "500"
           }
         ],
-        "family": "Albert Sans"
+        "family": "Open Sans"
       }
     ]
   },

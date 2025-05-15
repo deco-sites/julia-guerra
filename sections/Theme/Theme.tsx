@@ -287,7 +287,7 @@ export function Preview(props: Props) {
       }
       <style>
         {`
-          @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;700&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
 
           :root {
             --admin-color-dark-bg: #0d1717;
@@ -299,7 +299,7 @@ export function Preview(props: Props) {
             --admin-border-hover-color-light: #819292;
             --admin-border-hover-color-dark: #949e9e;
             --admin-hover-bg-color: #fafafa;
-            --admin-font-family: 'Albert Sans', sans-serif;
+            --admin-font-family: 'Open Sans', sans-serif;
           }
 
           .admin-font-family {
