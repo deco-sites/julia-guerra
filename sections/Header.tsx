@@ -47,45 +47,48 @@ export default function Header({
       <input id="mobile-drawer-nav" type="checkbox" class="drawer-toggle" />
 
       {/* main content */}
-      <div class="drawer-content container lg:px-0 px-4 flex gap-8 items-center justify-between py-4">
+      <div class="drawer-content container lg:px-0 px-4 flex gap-8 items-center justify-center py-4">
         <a href="/">
-          <Image src={logo.src || ""} width={220} height={41} alt={logo.alt} />
+          <Image src={logo.src || ""} width={130} alt={logo.alt} />
         </a>
 
-        <div class="hidden items-center justify-between lg:flex w-full">
-          <ul class="flex">
-            {navigation.links.map((link) => (
-              <li>
-                <a
-                  href={link.url}
-                  aria-label={link.label}
-                  class="link no-underline hover:underline p-4"
-                >
-                  {link.label}
-                </a>
-              </li>
-            ))}
-          </ul>
-          <ul class="flex gap-3">
-            {navigation.buttons?.map((item) => (
-              <a
-                key={item?.id}
-                id={item?.id}
-                href={item?.href ?? "#"}
-                target={item?.href.includes("http") ? "_blank" : "_self"}
-                class={`font-normal btn btn-primary ${
-                  item.outline && "btn-outline"
-                }`}
-              >
-                {item?.text}
-              </a>
-            ))}
-          </ul>
-        </div>
+        {
+          navigation.links.length > 0 ? (
+            <div class="items-center justify-between lg:flex w-full">
+              <ul class="flex">
+                {navigation.links.map((link) => (
+                  <li>
+                    <a
+                      href={link.url}
+                      aria-label={link.label}
+                      class="link no-underline hover:underline p-4"
+                    >
+                      {link.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+              <ul class="flex gap-3">
+                {navigation.buttons?.map((item) => (
+                  <a
+                    key={item?.id}
+                    id={item?.id}
+                    href={item?.href ?? "#"}
+                    target={item?.href.includes("http") ? "_blank" : "_self"}
+                    class={`font-normal btn btn-primary ${item.outline && "btn-outline"
+                      }`}
+                  >
+                    {item?.text}
+                  </a>
+                ))}
+              </ul>
+            </div>
+          ) : ""
+        }
 
         <label
           htmlFor="mobile-drawer-nav"
-          class="flex lg:hidden btn btn-ghost drawer-button"
+          class="huddeflex lg:hidden btn btn-ghost drawer-button"
         >
           <Icon id="Bars3" size={24} strokeWidth={0.1} />
         </label>
