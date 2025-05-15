@@ -69,7 +69,7 @@ export default function ImageWithParagraph({
           { image && <div class="w-full md:w-1/2 border border-secondary rounded-lg overflow-hidden">
             <Image
               width={640}
-              height={640}
+              height={480}
               class="object-fit z-10"
               sizes="(max-width: 640px) 100vw, 30vw"
               src={image}
@@ -82,7 +82,7 @@ export default function ImageWithParagraph({
           <p class="text-4xl leading-snug" style={`text-align:${titlePlacement}`}>
             {title}
           </p>
-          {tagline ? <p class="text-sm font-semibold">
+          {tagline ? <p class="text-sm text-secondary">
             {tagline}
           </p>
           : ''}
