@@ -44,11 +44,11 @@ export default function ImageWithParagraph({
   cta = [],
 }: Props) {
   return (
-    <div class="lg:container md:max-w-6xl lg:mx-auto mx-4 pb-8">
+    <div class="lg:container md:max-w-6xl lg:mx-auto mx-4 mb-6">
       <div
         class={`flex ${
           PLACEMENT[placement]
-        } gap-12 md:gap-20 text-left items-center z-10`}
+        } gap-12 md:gap-20 text-left items-center z-10 pb-4`}
       >
         
           { image && <div class="w-full md:w-1/2 border border-secondary rounded-lg overflow-hidden">
@@ -97,7 +97,7 @@ export default function ImageWithParagraph({
             ) : ""
           }
 
-          <div class={`flex gap-3`}>
+          <div class="flex gap-3">
             {cta?.map((item) => (
               <a
                 key={item?.id}
