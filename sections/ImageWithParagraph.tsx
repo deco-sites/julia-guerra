@@ -45,8 +45,8 @@ export default function ImageWithParagraph({
   description =
     "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
   descriptionPlacement = "left",
-  tagline = "Tagline",
-  image = DEFAULT_IMAGE,
+  tagline = null,
+  image = null,
   placement = "left",
   disableSpacing,
   cta = [
@@ -64,22 +64,24 @@ export default function ImageWithParagraph({
           disableSpacing?.top ? "" : "pt-12 lg:pt-28"
         } ${disableSpacing?.bottom ? "" : "pb-12 lg:pb-28"}`}
       >
-        <div class="w-full md:w-1/2 border border-secondary rounded-lg overflow-hidden">
-          <Image
-            width={640}
-            height={640}
-            class="object-fit z-10"
-            sizes="(max-width: 640px) 100vw, 30vw"
-            src={image}
-            alt={image}
-            decoding="async"
-            loading="lazy"
-          />
-        </div>
+        
+          { image && <div class="w-full md:w-1/2 border border-secondary rounded-lg overflow-hidden">
+            <Image
+              width={640}
+              height={640}
+              class="object-fit z-10"
+              sizes="(max-width: 640px) 100vw, 30vw"
+              src={image}
+              alt={image}
+              decoding="async"
+              loading="lazy"
+            />
+        </div> }
         <div class="w-full md:w-1/2 space-y-2 md:space-y-4 md:max-w-xl gap-4 z-10">
-          <p class="text-sm font-semibold">
+          {tagline ? <p class="text-sm font-semibold">
             {tagline}
           </p>
+          : ''}
           <p class="text-4xl leading-snug" style={`text-align:${titlePlacement}`}>
             {title}
           </p>
