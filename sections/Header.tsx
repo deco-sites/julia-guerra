@@ -47,21 +47,21 @@ export default function Header({
       <input id="mobile-drawer-nav" type="checkbox" class="drawer-toggle" />
 
       {/* main content */}
-      <div class="drawer-content container lg:px-0 px-4 flex gap-8 items-center justify-center py-4 mt-2 mb-6">
+      <div class="drawer-content lg:container md:max-w-6xl lg:mx-auto mx-4 flex gap-8 items-center justify-center py-4 mt-2 mb-6">
         <a href="/" class="block py-6">
           <Image src={logo.src || ""} width={200} alt={logo.alt} />
         </a>
 
         {
           navigation.links.length > 0 ? (
-            <div class="items-center justify-between lg:flex w-full">
-              <ul class="flex">
+            <div class="justify-end lg:flex w-full">
+              <ul class="flex mt-2">
                 {navigation.links.map((link) => (
                   <li>
                     <a
                       href={link.url}
                       aria-label={link.label}
-                      class="link no-underline hover:underline p-4"
+                      class="block link no-underline hover:underline px-4 py-2"
                     >
                       {link.label}
                     </a>

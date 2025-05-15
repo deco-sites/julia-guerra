@@ -23,7 +23,7 @@ export default function Footer({
             id={item?.id}
             href={item?.href}
             target={item?.href.includes("http") ? "_blank" : "_self"}
-            class="hover:underline"
+            class="underline"
           >
             {item?.label}
           </a>
