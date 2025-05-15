@@ -57,7 +57,7 @@ export default function ImageWithParagraph({
   ctaPlacement = "left",
 }: Props) {
   return (
-    <div class="lg:container md:max-w-6xl lg:mx-auto mx-4 text-sm">
+    <div class="lg:container md:max-w-6xl lg:mx-auto mx-4">
       <div
         class={`flex ${
           PLACEMENT[placement]
@@ -87,7 +87,7 @@ export default function ImageWithParagraph({
           </p>
           : ''}
           <div
-            class="grid gap-4 leading-[1.5]" style={`text-align:${descriptionPlacement}`}
+            class="grid gap-4 leading-[1.6]" style={`text-align:${descriptionPlacement}`}
             dangerouslySetInnerHTML={{
               __html: description,
             }}
