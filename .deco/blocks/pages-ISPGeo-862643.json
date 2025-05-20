@@ -1,6 +1,6 @@
 {
   "name": "ISPGeo",
-  "path": "/ispgeo",
+  "path": "/praticas/ispgeo",
   "sections": [
     {
       "__resolveType": "Header"
