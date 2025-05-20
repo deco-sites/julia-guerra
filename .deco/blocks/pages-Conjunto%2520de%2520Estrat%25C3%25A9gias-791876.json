@@ -17,7 +17,7 @@
         "bottom": true
       },
       "placement": "center",
-      "title": "Práticas"
+      "tagline": "Práticas"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",

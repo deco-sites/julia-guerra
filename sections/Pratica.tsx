@@ -64,7 +64,7 @@ export default function ImageWithParagraph({
             />
         </div> }
         <div class="w-full gap-4 z-10 md:max-w-xl md:w-1/2 md:space-y-4 space-y-2">
-          <h2 class="text-2xl leading-snug">
+          <h2 class="text-3xl leading-snug">
             {label}
           </h2>
           {tagline ? <p class="text-sm text-secondary">
@@ -83,7 +83,7 @@ export default function ImageWithParagraph({
               <div class={`flex flex-col gap-6 pt-4`}>
                 {paragraphs?.map((item) => (
                   <div>
-                    <h3 class="mb-2 text-xl leading-snug">{item.label}</h3>
+                    <h3 class="mb-2 text-2xl leading-snug">{item.label}</h3>
                     <div
                       class="grid gap-4 leading-[1.6]"
                       dangerouslySetInnerHTML={{
