@@ -1,7 +1,15 @@
 {
-  "name": "Conjunto de Estratégias",
+  "name": "Prática - Conjunto de Estratégias",
   "path": "/praticas/conjunto-estrategias-prevencao",
   "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "website/sections/Seo/SeoV2.tsx",
+        "title": " Conjunto de Estratégias de Prevenção",
+        "type": "website"
+      }
+    },
     {
       "__resolveType": "Header"
     },
