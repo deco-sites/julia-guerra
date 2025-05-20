@@ -1,0 +1,75 @@
+{
+  "name": "Promotorias de Justiça",
+  "path": "/praticas/promotorias-de-justica-de-investigacao-penal",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "descriptionPlacement": "left",
+      "titlePlacement": "left",
+      "ctaPlacement": "right",
+      "description": "<p></p>",
+      "cta": [],
+      "disableSpacing": {
+        "top": false,
+        "bottom": true
+      },
+      "placement": "center",
+      "title": "Práticas"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Pratica.tsx",
+        "placement": "center",
+        "description": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">Redesenho Organizacional de Promotorias de Justiça de Investigação Penal (2019)</span></p>",
+        "paragraphs": [
+          {
+            "style": "Outline",
+            "label": "Problema",
+            "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">Em 2016, a Corregedoria Nacional do Ministério Público (CNMP) determinou que o Ministério Público do Rio de Janeiro reavaliasse a manutenção das PIP bem como promovesse, por meio de estudos, a fusão ou a redistribuição de suas atribuições. Além disso, foi recomendada a desvinculação da PIP da devida Delegacia de Polícia, e a redistribuição, da forma mais equânime possível, dos procedimentos que aportam nas unidades, observando critérios objetivos e impessoais. A mesma Corregedoria também recomendou que as PIP passassem a protagonizar as investigações, não se limitando a aguardar as providências de outros órgãos, além de adotar atuação integrada aos órgãos institucionais de apoio à atividade finalística. Promover uma reorganização institucional dentro de um MP estadual é muito difícil, uma vez que a Independência Funcional requer que os promotores tenham que anuir sobre qualquer perda de atribuição da sua promotoria.</span></p>"
+          },
+          {
+            "label": "Proposta",
+            "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">Em 2019, o Procurador-Geral de Justiça (PGJ) usou a janela política aberta pelo CNMP para promover uma revisão do trabalho das PIP. Propôs-se um redesenho organizacional, com revisão de atribuição das Promotorias de Justiça de Investigação Penal (PIP).</span></p>"
+          },
+          {
+            "label": "Resultados",
+            "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">O redesenho criou três tipos de PIP agrupadas por tipos penais: territoriais, especializados e de violência doméstica. Em cada um desses casos, criou-se uma vinculação territorial das promotorias com Áreas Integradas de Segurança Pública (AISP), garantindo o número de promotores conforme a demanda de entrada de inquéritos. Os promotores de cada AISP passaram a trabalhar com atribuição concorrente e com divisão de inquéritos realizada de forma aleatória, o que produz órgãos com atribuições diretamente comparáveis e lança as bases para um processo de medição de trabalho das promotorias. A reforma redefiniu a atribuição de 55 promotorias e foi aprovada por unanimidade pelo Colégio de Procuradores do MPRJ. Entrou em efeito em março de 2020, sendo um exemplo raro de reorganização institucional em um Ministério Público brasileiro.</span></p>"
+          },
+          {
+            "label": "Implementação",
+            "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">Sub-Procuradoria de Planejamento do Ministério Público do Rio de Janeiro.</span></p>"
+          },
+          {
+            "label": "Parceria",
+            "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">Centro de Pesquisa do Ministério Público do Rio de Janeiro.</span></p>"
+          },
+          {
+            "label": "Financiamento",
+            "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">Ministério Público do Rio de Janeiro.</span></p>"
+          }
+        ],
+        "label": "Promotorias de Justiça de Investigação Penal"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "PraticasList"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "SimpleFooter"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
