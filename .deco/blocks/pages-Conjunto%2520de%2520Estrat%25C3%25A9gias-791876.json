@@ -3,14 +3,6 @@
   "path": "/praticas/conjunto-estrategias-prevencao",
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "website/sections/Seo/SeoV2.tsx",
-        "title": " Conjunto de Estratégias de Prevenção",
-        "type": "website"
-      }
-    },
-    {
       "__resolveType": "Header"
     },
     {
@@ -72,6 +64,14 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "SimpleFooter"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "website/sections/Seo/SeoV2.tsx",
+        "type": "website",
+        "titleTemplate": "Julia Guerra - Prática: Conjunto de Estratégias de Prevenção"
       }
     }
   ],
