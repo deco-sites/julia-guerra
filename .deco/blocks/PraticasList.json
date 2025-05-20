@@ -16,10 +16,10 @@
     {
       "placement": "center",
       "label": "Conjunto de Estratégias de Prevenção",
-      "description": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">Desenho, Monitoramento e Avaliação do Programa Conjunto de Estratégias de Prevenção (CEP) – Seu Rio, sua Rua (2021)</span></p>",
+      "description": "<p>Desenho, Monitoramento e Avaliação do Programa Conjunto de Estratégias de Prevenção (CEP) – Seu Rio, sua Rua (2021)</p>",
       "cta": [
         {
-          "href": "/praticas/conjunto-de-estrategias-de-prevencao",
+          "href": "/praticas/conjunto-estrategias-prevencao",
           "label": "Ver mais",
           "style": "Outline"
         }
@@ -42,24 +42,12 @@
       "cta": [
         {
           "style": "Outline",
-          "href": "/praticas/conjunto-estrategias-prevencao",
+          "href": "/praticas/promotorias-justica-investigacao-penal",
           "label": "Ver mais"
         }
       ],
-      "label": "Conjunto de Estratégias de Prevenção",
-      "description": "<p>Desenho, Monitoramento e Avaliação do Programa Conjunto de Estratégias de Prevenção (CEP) – Seu Rio, sua Rua (2021)</p>"
-    },
-    {
-      "placement": "center",
       "label": "Promotorias de Justiça de Investigação Penal",
-      "description": "<p>Redesenho Organizacional de Promotorias de Justiça de Investigação Penal (2019)</p>",
-      "cta": [
-        {
-          "href": "/praticas/promotorias-justica-investigacao-penal",
-          "label": "Ver mais",
-          "style": "Outline"
-        }
-      ]
+      "description": "<p>Redesenho Organizacional de Promotorias de Justiça de Investigação Penal (2019)</p>"
     },
     {
       "placement": "center",
