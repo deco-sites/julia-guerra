@@ -36,6 +36,42 @@
           "style": "Outline"
         }
       ]
+    },
+    {
+      "placement": "center",
+      "cta": [
+        {
+          "style": "Outline",
+          "href": "/praticas/conjunto-estrategias-prevencao",
+          "label": "Ver mais"
+        }
+      ],
+      "label": "Conjunto de Estratégias de Prevenção",
+      "description": "<p>Desenho, Monitoramento e Avaliação do Programa Conjunto de Estratégias de Prevenção (CEP) – Seu Rio, sua Rua (2021)</p>"
+    },
+    {
+      "placement": "center",
+      "label": "Promotorias de Justiça de Investigação Penal",
+      "description": "<p>Redesenho Organizacional de Promotorias de Justiça de Investigação Penal (2019)</p>",
+      "cta": [
+        {
+          "href": "/praticas/promotorias-justica-investigacao-penal",
+          "label": "Ver mais",
+          "style": "Outline"
+        }
+      ]
+    },
+    {
+      "placement": "center",
+      "label": "Projeto Farol",
+      "description": "<p>Farol: Luz sobre as promotorias de Justiça (2020)</p>",
+      "cta": [
+        {
+          "href": "/praticas/projeto-farol",
+          "label": "Ver mais",
+          "style": "Outline"
+        }
+      ]
     }
   ]
 }
