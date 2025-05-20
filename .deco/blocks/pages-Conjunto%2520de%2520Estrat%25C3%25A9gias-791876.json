@@ -10,14 +10,13 @@
       "descriptionPlacement": "left",
       "titlePlacement": "left",
       "ctaPlacement": "right",
-      "description": "<p></p>",
+      "description": "<p>Prática</p>",
       "cta": [],
       "disableSpacing": {
-        "top": false,
+        "top": true,
         "bottom": true
       },
-      "placement": "center",
-      "tagline": "Práticas"
+      "placement": "center"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
