@@ -17,6 +17,8 @@ export default function Footer({
   return (
     <footer class="footer footer-center center text-center grid gap-8 p-10 mb-4 text-sm">
       <div class="flex gap-2 center justify-center">
+        <span>Julia Guerra</span>
+        <span>—</span>
         {cta?.map((item) => (
           <a
             key={item?.id}
