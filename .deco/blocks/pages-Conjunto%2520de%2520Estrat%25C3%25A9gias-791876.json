@@ -1,0 +1,75 @@
+{
+  "name": "Conjunto de Estratégias",
+  "path": "/conjunto-de-estrategias-de-prevencao",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "descriptionPlacement": "left",
+      "titlePlacement": "left",
+      "ctaPlacement": "right",
+      "description": "<p></p>",
+      "cta": [],
+      "disableSpacing": {
+        "top": false,
+        "bottom": true
+      },
+      "placement": "center",
+      "title": "Práticas"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Pratica.tsx",
+        "placement": "center",
+        "description": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">Desenho, Monitoramento e Avaliação do Programa Conjunto de Estratégias de Prevenção (CEP) – Seu Rio, sua Rua (2021)</span></p>",
+        "paragraphs": [
+          {
+            "style": "Outline",
+            "label": "Problema",
+            "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">Em 2019, ocorreram na cidade do Rio de Janeiro mais de 64 mil roubos de rua, o que equivaleria a dizer que 1 em cada 100 cariocas teve um bem usurpado de forma violenta ou com grave ameaça enquanto andava nas ruas. Entretanto, esse crime não incide em todos os locais e afeta todas as pessoas da mesma forma. Análise dos dados da cidade de 2016 revela que metade dos roubos de rua ocorridos na cidade do Rio de Janeiro ocorreram em 3,5% do território (Chainey e Monteiro, 2019). Esses locais de alta incidência são bastante estáveis no tempo porque são tipicamente locais de alta circulação de pessoas como as estações de trem, metrô, BRT e de ônibus ou locais de lazer como as portas de parques ou centros comerciais. Mas apesar de serem locais de alto risco, muitas vezes eles carecem de iluminação adequada, patrulhamento preventivo e o mínimo de ordenamento de espaço público que poderiam ajudar a dissuadir a ocorrência de crimes.</span></p>"
+          },
+          {
+            "label": "Proposta",
+            "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">Realizar projeto-piloto de intervenções urbanas com alto benefício-custo para reduzir os fatores de riscos em microlocalidades que concentram uma parcela significativa desses crimes na cidade do Rio de Janeiro.</span></p>"
+          },
+          {
+            "label": "Parceria e Implementação",
+            "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">Secretaria de Ordem Pública do Município do Rio de Janeiro.</span></p>"
+          },
+          {
+            "label": "Financiamento",
+            "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">Doações privadas.</span></p>"
+          },
+          {
+            "label": "Relatórios e artigos sobre o projeto",
+            "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">Relatório de Fundamentação</span></p><p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">Escritório de Dados da Prefeitura</span></p><p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">O Globo: Prefeitura do Rio fará ações para reduzir os índices de crimes em áreas críticas</span></p>"
+          },
+          {
+            "label": "Referências para desenho do programa",
+            "text": "<p>Podcast Primeiro Turno Lei e Ordem, Com Lucas Novaes e Joana Monteiro</p><p>Crime concentration at micro-places in Latin America</p><p>The dispersion of crime concentration during a period of crime increase</p>"
+          }
+        ],
+        "label": "Conjunto de Estratégias de Prevenção"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "PraticasList"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "SimpleFooter"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
