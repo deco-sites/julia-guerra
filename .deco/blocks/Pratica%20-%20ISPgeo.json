@@ -1,0 +1,14 @@
+{
+  "__resolveType": "site/sections/Pratica.tsx",
+  "placement": "center",
+  "description": "<p></p>",
+  "paragraphs": [],
+  "cta": [
+    {
+      "style": "Outline",
+      "label": "Ver mais",
+      "href": "/praticas/programa-na-moral"
+    }
+  ],
+  "label": "ISPGeo"
+}

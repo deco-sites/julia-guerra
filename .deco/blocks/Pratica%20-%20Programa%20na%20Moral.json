@@ -1,0 +1,14 @@
+{
+  "__resolveType": "site/sections/Pratica.tsx",
+  "placement": "center",
+  "description": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">Desenho e Avaliação de Programa de Prevenção à Violência nas Escolas (2021-Atual)</span></p>",
+  "paragraphs": [],
+  "cta": [
+    {
+      "style": "Outline",
+      "label": "Ver mais",
+      "href": "/praticas/programa-na-moral"
+    }
+  ],
+  "label": "Programa Na Moral"
+}
