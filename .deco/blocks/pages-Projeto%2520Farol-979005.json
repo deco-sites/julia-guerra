@@ -1,0 +1,75 @@
+{
+  "name": "Projeto Farol",
+  "path": "/praticas/projeto-farol",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "descriptionPlacement": "left",
+      "titlePlacement": "left",
+      "ctaPlacement": "right",
+      "description": "<p></p>",
+      "cta": [],
+      "disableSpacing": {
+        "top": false,
+        "bottom": true
+      },
+      "placement": "center",
+      "title": "Práticas"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Pratica.tsx",
+        "placement": "center",
+        "description": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">Farol: Luz sobre as promotorias de Justiça (2020)</span></p>",
+        "paragraphs": [
+          {
+            "style": "Outline",
+            "label": "Problema",
+            "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">Os Ministérios Públicos Estaduais operam com baixo nível de prestação de contas e de acompanhamento de seus resultados. O Procurador-Geral de Justiça demandou a criação de um processo de medição de resultados das Promotorias de Justiça, que permitisse enxergar o que é entregue por cada unidade.</span></p>"
+          },
+          {
+            "label": "Proposta",
+            "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">Por meio da produção e do uso de evidências científicas, buscava-se incentivar uma atuação institucional resolutiva e transparente, que valorizasse o uso de dados no processo de tomada de decisão e preconizasse uma comunicação eficaz com a sociedade. O projeto Farol teve três eixos de execução interligados: (1) Medição; (2) Engajamento; (3) Transparência para a sociedade. O Eixo Medição tem por objetivo mapear as atribuições existentes nas promotorias, definir critérios de mensuração e avaliar quais indicadores devem ser usados, de forma que reflitam os principais resultados institucionais. O Eixo Engajamento procurava incentivar os membros do MPRJ a acompanharem as informações oferecidas pelos relatórios de monitoramento Farol de forma qualificada e frequente, na busca contínua por melhoria de resultados. Já o Eixo Transparência para a Sociedade buscava estabelecer um processo de transparência ativa dos resultados da atividade-fim do Parquet fluminense, fornecendo à sociedade informações acerca da atuação ministerial que dialoguem com os resultados apresentados pelos demais órgãos do Sistema de Justiça Criminal.</span></p>"
+          },
+          {
+            "label": "Resultados",
+            "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">Foram produzidos de forma inédita indicadores de produto e resultado das promotorias de investigação penal do MPRJ, incluindo taxas de denúncia, arquivamento e procedência na Justiça. Foi feito ainda um estudo inédito da persecução penal de casos de homicídios dolosos no Rio de Janeiro. A parte de engajamento e transparência não foi adotada pela Alta Gestão da Instituição.</span></p>"
+          },
+          {
+            "label": "Implementação",
+            "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">Centro de Pesquisa do Ministério Público do Rio de Janeiro.</span></p>"
+          },
+          {
+            "label": "Financiamento",
+            "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">Ministério Público do Rio de Janeiro.</span></p>"
+          },
+          {
+            "label": "Material sobre o projeto",
+            "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">Projeto Farol: luz sobre as promotorias de Justiça</span></p>"
+          }
+        ],
+        "label": "Projeto Farol"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "PraticasList"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "SimpleFooter"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
