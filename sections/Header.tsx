@@ -54,7 +54,7 @@ export default function Header({
 
         {
           navigation.links.length > 0 ? (
-            <div class="justify-end lg:flex w-full">
+            <div class="justify-end lg:flex w-full hidden md:block">
               <ul class="flex mt-2">
                 {navigation.links.map((link) => (
                   <li>
@@ -95,7 +95,7 @@ export default function Header({
       </div>
 
       {/* sidebar */}
-      <aside class="drawer-side z-50">
+      <aside class="drawer-side z-50 md:hidden">
         {/* Close when clicking on overlay */}
         <label
           htmlFor="mobile-drawer-nav"
