@@ -1,0 +1,79 @@
+{
+  "name": "ISPGeo",
+  "path": "/ispgeo",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "descriptionPlacement": "left",
+      "titlePlacement": "left",
+      "ctaPlacement": "right",
+      "description": "<p></p>",
+      "cta": [],
+      "disableSpacing": {
+        "top": false,
+        "bottom": true
+      },
+      "placement": "center",
+      "title": "Práticas"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Pratica.tsx",
+        "placement": "center",
+        "description": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">ISPGeo – Plataforma de Georreferenciamento de Crimes no Estado do Rio de Janeiro</span></p>",
+        "paragraphs": [
+          {
+            "style": "Outline",
+            "label": "Problema",
+            "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">O patrulhamento de pontos quentes de criminalidade é uma das políticas avaliadas como mais efetivas na área de segurança pública. Para executá-lo, é fundamental que as polícias tenham acesso rápido e fácil aos registros de crime georreferenciados, de forma a analisar o mapa de calor e conseguir planejar a alocação de policiamento. Até 2016, o georreferenciamento dos crimes era feito pelo setor de análise criminal de cada batalhão, de forma bastante artesanal, o que custava muito tempo e não permitia ter uma visão completa dos crimes do Rio de Janeiro.</span></p>"
+          },
+          {
+            "label": "Proposta",
+            "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">A equipe do Instituto de Segurança Pública desenvolveu o ISPGeo, uma solução de tratamento, análise, integração e visualização de dados georreferenciados e tabulares, com capacidade de integração entre diversas bases de dados (espaciais e não-espaciais) e interface amigável e intuitiva. O portal ISPGeo possibilita aos gestores e operadores da segurança pública a realização de diversos tipos de análise, tais como análise de manchas criminais (identificação das áreas com maior concentração de crimes), acesso a gráficos com séries históricas por tipo de delito, evolução dos registros de ocorrência ao longo da semana e do mês, identificação da faixa de hora em que determinado tipo de crime é mais comum em cada região e acompanhamento dos indicadores do Sistema Integrado de Metas e Acompanhamento de Resultados da Segurança Pública. Com isso, torna-se possível aprimorar a análise criminal e a alocação mais eficiente dos recursos policiais, abrindo caminho para a implementação no estado do Rio de Janeiro das melhores práticas internacionais de combate à criminalidade, que preconizam o patrulhamento de manchas criminais.</span></p>"
+          },
+          {
+            "label": "Resultados",
+            "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">O ISPGeo é hoje instrumento fundamental para o planejamento e tomada de decisões com base em dados, seja no nível estratégico, nível tático e operacional das polícias do Rio de Janeiro. O sistema é alimentado diariamente, conta com mais de 40 indicadores criminais e permite visualizar todo o estado do Rio de Janeiro.</span></p>"
+          },
+          {
+            "label": "Implementação",
+            "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">Instituto de Segurança Pública.</span></p>"
+          },
+          {
+            "label": "Parceria",
+            "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">Instituto Igarapé.</span></p>"
+          },
+          {
+            "label": "Financiamento",
+            "text": "<p><span style=\"color: rgb(0, 0, 0); font-size: 11pt\">Doações privadas.</span></p>"
+          },
+          {
+            "label": "Material sobre o projeto",
+            "text": "<p>YouTube: Institucional ISPGEO</p><p>YouTube: ISPGeo no Fantástico</p>"
+          }
+        ],
+        "label": "ISPGeo"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "PraticasList"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "SimpleFooter"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
