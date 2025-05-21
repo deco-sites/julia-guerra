@@ -103,7 +103,7 @@ export default function Header({
           class="drawer-overlay"
         />
 
-        <div class="flex flex-col gap-4 min-h-full w-80 bg-base-100 text-base-content">
+        <div class="flex flex-col gap-2 min-h-full w-80 bg-base-100 text-base-content pt-4">
           <a class="p-6" href="/">
             <Image
               src={logo.src || ""}
