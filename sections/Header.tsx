@@ -116,7 +116,7 @@ export default function Header({
           <ul class="menu">
             {navigation?.links.map((link) => (
               <li>
-                <a class="text-lg" href={link.url} aria-label={link.label}>
+                <a class="text-xl" href={link.url} aria-label={link.label}>
                   {link.label}
                 </a>
               </li>
