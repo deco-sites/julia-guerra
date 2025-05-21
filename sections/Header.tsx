@@ -48,7 +48,7 @@ export default function Header({
 
       {/* main content */}
       <div class="drawer-content lg:container md:max-w-6xl lg:mx-auto mx-4 flex gap-8 items-center justify-center py-4 mt-2 mb-6">
-        <a href="/" class="block py-6 flex-auto">
+        <a href="/" class="block lg:py-6 flex-auto">
           <Image src={logo.src || ""} width={200} alt={logo.alt} />
         </a>
 
@@ -88,7 +88,7 @@ export default function Header({
 
         <label
           htmlFor="mobile-drawer-nav"
-          class="huddeflex lg:hidden btn btn-ghost drawer-button"
+          class="huddeflex lg:hidden drawer-button"
         >
           <Icon id="Bars3" size={24} strokeWidth={0.1} />
         </label>
