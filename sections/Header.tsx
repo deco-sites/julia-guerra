@@ -103,12 +103,12 @@ export default function Header({
           class="drawer-overlay"
         />
 
-        <div class="flex flex-col gap-8 min-h-full w-80 bg-base-100 text-base-content">
-          <a class="p-4" href="/">
+        <div class="flex flex-col gap-4 min-h-full w-80 bg-base-100 text-base-content">
+          <a class="p-6" href="/">
             <Image
               src={logo.src || ""}
-              width={100}
-              height={28}
+              width={140}
+              height={50}
               alt={logo.alt}
             />
           </a>
@@ -116,7 +116,7 @@ export default function Header({
           <ul class="menu">
             {navigation?.links.map((link) => (
               <li>
-                <a href={link.url} aria-label={link.label}>
+                <a class="text-lg" href={link.url} aria-label={link.label}>
                   {link.label}
                 </a>
               </li>
