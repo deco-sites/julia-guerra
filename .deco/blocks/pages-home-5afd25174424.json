@@ -1,6 +1,6 @@
 {
   "name": "Home",
-  "path": "/",
+  "path": "/home",
   "sections": [
     {
       "__resolveType": "Header"
